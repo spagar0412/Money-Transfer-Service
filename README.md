@@ -73,7 +73,7 @@ Response
 - 500 Internal Server Error
 
 ## Note
-#topic not relevant for this task 
+Topic not relevant/considered for this task 
  - currency conversion.
  - payment processing when transfer is between counter parties.
  - Ledger management. 
