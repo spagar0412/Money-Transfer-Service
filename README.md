@@ -73,5 +73,10 @@ Response
 - 500 Internal Server Error
 
 ## Note
-- topic not relevant for this task - currency conversion, payment procession when transfer is between counter parties, Ledger management, Approval invocation and fraud detection.  
+#topic not relevant for this task 
+ - currency conversion.
+ - payment processing when transfer is between counter parties.
+ - Ledger management. 
+ - Approval invocation 
+ - fraud detection.  
  
