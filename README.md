@@ -1,6 +1,5 @@
 # Money-Transfer-Service
  Simple implementation of ReSTful API for money transfers between accounts.
-#ReSTful API for funds transfers between accounts.
 
 
 ## Technology stack
