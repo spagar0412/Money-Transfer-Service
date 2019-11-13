@@ -21,6 +21,7 @@ mvn exec:java
 - GET [http://localhost:28080/moneytransfer/accounts](http://localhost:28080/moneytransfer/accounts)
 
 - GET [http://localhost:28080/moneytransfer/accounts/8def8bbd-6a72-4ac7-9b88-bb9b64d1d823](http://localhost:28080/moneytransfer/accounts/8def8bbd-6a72-4ac7-9b88-bb9b64d1d823)
+
 Response 
 {
     "id": "8def8bbd-6a72-4ac7-9b88-bb9b64d1d823",
@@ -31,6 +32,8 @@ Response
 }
 
 - POST [http://localhost:28080/moneytransfer/accounts](http://localhost:28080/moneytransfer/accounts)
+
+
 Payload
 {
 	"number":"12312312312123456",
@@ -40,6 +43,7 @@ Payload
 
 - POST [http://localhost:28080/moneytransfer/transactions/fundstransfer](http://localhost:28080/moneytransfer/transactions/fundstransfer)
 
+
 Payoad
 {
 	"source":"9b3d6956-c177-46d0-be0b-b00916d70b3f",
@@ -47,8 +51,9 @@ Payoad
 	"amount":"15.0",
 	"description":"transfer"
 }
+
+
 Response
-{
 {
     "id": "37f35d68-0080-4282-9666-afa6c60308a9",
     "source": "9b3d6956-c177-46d0-be0b-b00916d70b3f",
@@ -69,3 +74,4 @@ Response
 
 ## Note
 - topic not relevant for this task - currency conversion, payment procession when transfer is between counter parties, Ledger management, Approval invocation and fraud detection.  
+ 
